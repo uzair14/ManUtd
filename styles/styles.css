@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    color: yellow;
+    background-color:red;
+    position: sticky;
+    top: 0;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: silver;
+}
+
+td, th {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+img {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+div {
+    background-color: red;
+    color: yellow;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
